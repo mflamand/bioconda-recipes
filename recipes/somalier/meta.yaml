@@ -1,5 +1,5 @@
 {% set name = "somalier" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.7" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brentp/somalier/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: c9f6f543eb56c6804fc065392a380c2f231ad280ca44c6d1b12ce5198c66c451
+  sha256: d04c1a7f4fe3483664a6e4fa5403ca81e8cbbe7d8d5d75fa5633df8b0ac83fd6
 
 build:
   number: 0

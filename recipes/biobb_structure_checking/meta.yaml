@@ -1,5 +1,5 @@
 {% set name = "biobb_structure_checking" %}
-{% set version = "3.16.1" %}
+{% set version = "3.16.4" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,10 +7,10 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 9182ce006ad05dfe9c1bd9077a5ab5fa97ca8fcd304ad9b09ca230394d72db41
+  sha256: 71c2569fac5bc8434b7e9775121785ae9efa540f75f1033f1091c0cd77c55025 
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
   run_exports:

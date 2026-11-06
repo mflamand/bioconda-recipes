@@ -1,6 +1,6 @@
 {% set name = "vvv2_display" %}
-{% set version = "0.2.5.0" %}
-{% set sha256 = "9e9e424b0f8fc71bec97924c53038473fdfcf6a5b4a9bf844555fdc83da64c46" %}
+{% set version = "0.2.5.3" %}
+{% set sha256 = "d49d3dda0601c359e43ea901f08b41135c77d9308f42f83955bf5ae0dad539c9" %}
 
 package:
   name: {{ name }}

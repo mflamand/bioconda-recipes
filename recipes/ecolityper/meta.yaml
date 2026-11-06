@@ -1,5 +1,5 @@
 {% set name = "ecolityper" %}
-{% set version = "1.2.1" %}
+{% set version = "1.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/bbeckley-hub/EcoliTyper/archive/v{{ version }}.tar.gz
-  sha256: 6d8cd9d1b2435af80b7db95b872f40f418fce27fdd7954b5a874b096d115a405
+  sha256: 796cfe0a5550e636559c58391b6ed9e6356459e517c06a2f227c4953976beace
 
 build:
   noarch: python
